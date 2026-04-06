@@ -1,12 +1,9 @@
+import Button from "../common/Button";
 import { IconX } from "../common/Icons";
 
 const FIELDS = {
-  vectorStore: ["Qdrant", "Pinecone", "Weaviate"],
-  embeddingModel: [
-    "text-embedding-ada-002",
-    "text-embedding-3-small",
-    "text-embedding-3-large",
-  ],
+  vectorStore: ["Qdrant"],
+  embeddingModel: ["text-embedding-ada-002"],
 };
 
 function Label({ children, required }) {
@@ -32,7 +29,7 @@ function Select({ options, defaultValue }) {
     <div className="relative">
       <select
         defaultValue={defaultValue}
-        className="w-full appearance-none px-3.5 py-2.5 border border-gray-200 rounded-lg text-[14px] text-gray-900 bg-white cursor-pointer outline-none focus:border-[#4F46E5] focus:ring-2 focus:ring-[#4F46E5]/10 transition-all"
+        className="w-full appearance-none px-3.5 py-2.5 border border-gray-200 rounded-lg text-[10px] text-gray-400 bg-white cursor-pointer outline-none focus:border-[#4F46E5] focus:ring-2 focus:ring-[#4F46E5]/10 transition-all"
       >
         {options.map((o) => (
           <option key={o}>{o}</option>
@@ -72,7 +69,7 @@ export default function CreateNewModal({ onClose }) {
           </button>
         </div>
 
-        <div className="flex-1 overflow-y-auto px-5 py-7 space-y-6">
+        <div className="flex-1 overflow-y-auto px-5 space-y-6">
           <div>
             <Label required>Name (Cannot be edited later)</Label>
             <Input type="text" placeholder="Name" />
@@ -82,7 +79,7 @@ export default function CreateNewModal({ onClose }) {
             <textarea
               placeholder="Description"
               rows={4}
-              className="w-full px-3.5 py-2.5 border border-gray-200 rounded-lg text-[14px] text-gray-900 placeholder:text-gray-400 outline-none focus:border-[#4F46E5] focus:ring-2 focus:ring-[#4F46E5]/10 transition-all resize-vertical"
+              className="w-full px-3.5 py-2.5 border border-gray-200 rounded-lg text-[10px] text-gray-900 placeholder:text-gray-400 outline-none focus:border-[#4F46E5] focus:ring-2 focus:ring-[#4F46E5]/10 transition-all resize-vertical"
             />
           </div>
           <div>
@@ -99,9 +96,7 @@ export default function CreateNewModal({ onClose }) {
         </div>
 
         <div className="px-5 py-5 border-t border-gray-100 flex justify-end gap-2.5 shrink-0">
-          <button className="px-7 py-2.5 rounded-lg bg-[#4F46E5] text-[13.5px] font-semibold text-white hover:bg-[#4338CA] transition-colors shadow-[0_2px_8px_rgba(79,70,229,0.3)]">
-            Create
-          </button>
+          <Button>Create</Button>
         </div>
       </div>
     </div>

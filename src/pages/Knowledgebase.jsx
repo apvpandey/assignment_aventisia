@@ -30,7 +30,7 @@ export default function Knowledgebase() {
               </span>
               <input
                 value={search}
-                onChange={(e) => setSearch(e.target.value)}
+                // onChange={(e) => setSearch(e.target.value)}
                 placeholder="Search..."
                 className="border-none outline-none text-[13px] text-gray-700 bg-transparent flex-1 placeholder:text-gray-400"
               />
@@ -49,7 +49,7 @@ export default function Knowledgebase() {
             ))}
 
             {filtered.length === 0 && (
-              <div className="col-span-3 text-center py-16 text-[14px] text-gray-400">
+              <div>
                 No results found.
               </div>
             )}

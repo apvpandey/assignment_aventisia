@@ -7,7 +7,7 @@ export default function Card({ title, description, createdOn }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="bg-white border border-gray-200 rounded-xl p-[18px] flex flex-col min-h-[160px] relative hover:shadow-[0_2px_12px_rgba(79,70,229,0.09)] transition-shadow">
+    <div className="rounded-xl p-[18px] flex flex-col min-h-[160px] relative hover:shadow-[0_2px_12px_rgba(79,70,229,0.09)] transition-shadow">
       <div className="flex items-start justify-between mb-2.5">
         <span className="font-semibold text-[14.5px] text-gray-900">
           {title}
