@@ -2,7 +2,7 @@
   "name": "aventisia_frontend_task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://apvpandey.github.io/aventisia_frontend_task",
+  "homepage": "https://apvpandey.github.io/assignment_aventisia",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
