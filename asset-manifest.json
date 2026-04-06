@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/assignment_aventisia/static/css/main.dd765fb7.css",
-    "main.js": "/assignment_aventisia/static/js/main.923f7c6e.js",
+    "main.css": "/assignment_aventisia/static/css/main.0314f47e.css",
+    "main.js": "/assignment_aventisia/static/js/main.46e79790.js",
     "static/js/453.bdd2c280.chunk.js": "/assignment_aventisia/static/js/453.bdd2c280.chunk.js",
     "index.html": "/assignment_aventisia/index.html",
-    "main.dd765fb7.css.map": "/assignment_aventisia/static/css/main.dd765fb7.css.map",
-    "main.923f7c6e.js.map": "/assignment_aventisia/static/js/main.923f7c6e.js.map",
+    "main.0314f47e.css.map": "/assignment_aventisia/static/css/main.0314f47e.css.map",
+    "main.46e79790.js.map": "/assignment_aventisia/static/js/main.46e79790.js.map",
     "453.bdd2c280.chunk.js.map": "/assignment_aventisia/static/js/453.bdd2c280.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd765fb7.css",
-    "static/js/main.923f7c6e.js"
+    "static/css/main.0314f47e.css",
+    "static/js/main.46e79790.js"
   ]
 }
